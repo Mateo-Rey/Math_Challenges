@@ -1,12 +1,8 @@
 const target = 7;
 let array = [2, 6, 3, 1];
 
-function fastTwoSum(arr, _target) {
+function fastTwoSum(arr, target) {
   let map = {
-    // 2: 0,
-    // 6: 1, 
-    // 3: 2,
-
   };
 
   for (let i = 0; i < arr.length; i++) {
